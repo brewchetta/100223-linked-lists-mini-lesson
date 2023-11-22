@@ -27,3 +27,4 @@ class LinkedListNode:
         self.next = LinkedListNode(data)
     
 utica = LinkedListNode("Utica")
+utica.create_next("Franklin")
